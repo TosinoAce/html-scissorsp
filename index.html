@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>scissors</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+      <div class="container align-items-center">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+              <div class="col-md-3 mb-2 mb-md-0">
+                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                  <svg width="156" height="40" viewBox="0 0 156 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M31.6471 8.43938C31.0613 7.85354 30.1032 7.85354 29.5173 8.43938L26.4643 11.4948C25.2134 10.6627 23.7779 10.2497 22.3365 10.2497C20.4174 10.2497 18.4737 10.9822 17.0337 12.4469L12.5336 16.9472C9.96732 19.5106 9.65099 23.4747 11.5787 26.384L8.52587 29.4394C7.94003 30.0253 7.94003 30.9745 8.52587 31.5606C8.81891 31.8536 9.20267 32 9.58643 32C9.97044 32 10.354 31.8536 10.647 31.5606L13.6998 28.5051C14.9509 29.3372 16.395 29.7502 17.8365 29.7502C19.7306 29.7502 21.6743 29.0178 23.1393 27.553L27.6307 23.053C30.197 20.4893 30.5133 16.5252 28.5854 13.616L31.6471 10.5605C32.2329 9.97466 32.2329 9.02522 31.6471 8.43938ZM26.8276 17.75C26.8276 18.9512 26.3589 20.0821 25.5096 20.9317L21.0182 25.4317C20.1657 26.2813 19.013 26.75 17.8365 26.75C17.1568 26.75 16.5064 26.5832 15.9088 26.2988L18.1223 24.0605C18.7082 23.4747 18.7082 22.5255 18.1223 21.9394C17.5612 21.3536 16.612 21.3536 16.0261 21.9394L13.7879 24.1777C13.5009 23.5829 13.3367 22.9325 13.3367 22.25C13.3367 21.0488 13.8054 19.9179 14.655 19.0683L19.1301 14.5683C19.9797 13.7187 21.1353 13.25 22.3365 13.25C23.0162 13.25 23.6635 13.4168 24.2613 13.7012L21.9791 15.9862C21.3933 16.572 21.3933 17.5212 21.9791 18.1073C22.2722 18.4004 22.6557 18.5468 23.0397 18.5468C23.4206 18.5468 23.8043 18.4004 24.0971 18.1073L26.3767 15.8223C26.6635 16.4168 26.8276 17.0674 26.8276 17.75Z" fill="#0065FE"/>
+                    <path d="M40.0865 8V32" stroke="#0065FE" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M55.3825 27.336C52.0465 27.336 49.7185 25.752 48.7825 23.184L51.6145 21.528C52.2625 23.232 53.5585 24.096 55.4785 24.096C57.3265 24.096 58.1665 23.352 58.1665 22.32C58.1665 21.72 57.9025 21.264 57.3745 20.952C56.8465 20.616 55.9105 20.256 54.5425 19.872C53.0305 19.416 52.1185 19.056 51.0625 18.312C50.0305 17.544 49.4785 16.392 49.4785 14.856C49.4785 13.344 50.0065 12.12 51.0865 11.232C52.1665 10.32 53.4865 9.864 54.9985 9.864C57.7105 9.864 59.8465 11.256 60.9985 13.632L58.2145 15.24C57.5425 13.8 56.4625 13.08 54.9985 13.08C53.6305 13.08 52.7905 13.776 52.7905 14.76C52.7905 15.288 53.0065 15.72 53.4385 16.056C53.8945 16.368 54.7345 16.728 55.9825 17.112L57.1345 17.496C57.3985 17.568 57.7585 17.712 58.2145 17.904C58.6705 18.072 59.0305 18.24 59.2705 18.408C59.7745 18.72 60.5425 19.32 60.8545 19.896C61.2145 20.472 61.4785 21.312 61.4785 22.272C61.4785 23.832 60.9025 25.056 59.7745 25.968C58.6465 26.88 57.1825 27.336 55.3825 27.336ZM71.4895 27.336C68.9695 27.336 66.8815 26.496 65.2255 24.816C63.5695 23.136 62.7535 21.072 62.7535 18.6C62.7535 16.128 63.5695 14.04 65.2255 12.384C66.8815 10.704 68.9695 9.864 71.4895 9.864C74.5375 9.864 77.2735 11.4 78.7135 13.824L75.8575 15.48C75.0175 13.968 73.4095 13.08 71.4895 13.08C69.8575 13.08 68.5375 13.584 67.5295 14.616C66.5455 15.648 66.0415 16.968 66.0415 18.6C66.0415 20.208 66.5455 21.528 67.5295 22.56C68.5375 23.592 69.8575 24.096 71.4895 24.096C73.4095 24.096 75.0655 23.184 75.8575 21.72L78.7135 23.376C77.2735 25.8 74.5615 27.336 71.4895 27.336ZM80.748 27V10.2H84.06V27H80.748ZM92.6481 27.336C89.3121 27.336 86.9841 25.752 86.0481 23.184L88.8801 21.528C89.5281 23.232 90.8241 24.096 92.7441 24.096C94.5921 24.096 95.4321 23.352 95.4321 22.32C95.4321 21.72 95.1681 21.264 94.6401 20.952C94.1121 20.616 93.1761 20.256 91.8081 19.872C90.2961 19.416 89.3841 19.056 88.3281 18.312C87.2961 17.544 86.7441 16.392 86.7441 14.856C86.7441 13.344 87.2721 12.12 88.3521 11.232C89.4321 10.32 90.7521 9.864 92.2641 9.864C94.9761 9.864 97.1121 11.256 98.2641 13.632L95.4801 15.24C94.8081 13.8 93.7281 13.08 92.2641 13.08C90.8961 13.08 90.0561 13.776 90.0561 14.76C90.0561 15.288 90.2721 15.72 90.7041 16.056C91.1601 16.368 92.0001 16.728 93.2481 17.112L94.4001 17.496C94.6641 17.568 95.0241 17.712 95.4801 17.904C95.9361 18.072 96.2961 18.24 96.5361 18.408C97.0401 18.72 97.8081 19.32 98.1201 19.896C98.4801 20.472 98.7441 21.312 98.7441 22.272C98.7441 23.832 98.1681 25.056 97.0401 25.968C95.9121 26.88 94.4481 27.336 92.6481 27.336ZM106.125 27.336C102.789 27.336 100.461 25.752 99.5247 23.184L102.357 21.528C103.005 23.232 104.301 24.096 106.221 24.096C108.069 24.096 108.909 23.352 108.909 22.32C108.909 21.72 108.645 21.264 108.117 20.952C107.589 20.616 106.653 20.256 105.285 19.872C103.773 19.416 102.861 19.056 101.805 18.312C100.773 17.544 100.221 16.392 100.221 14.856C100.221 13.344 100.749 12.12 101.829 11.232C102.909 10.32 104.229 9.864 105.741 9.864C108.453 9.864 110.589 11.256 111.741 13.632L108.957 15.24C108.285 13.8 107.205 13.08 105.741 13.08C104.373 13.08 103.533 13.776 103.533 14.76C103.533 15.288 103.749 15.72 104.181 16.056C104.637 16.368 105.477 16.728 106.725 17.112L107.877 17.496C108.141 17.568 108.501 17.712 108.957 17.904C109.413 18.072 109.773 18.24 110.013 18.408C110.517 18.72 111.285 19.32 111.597 19.896C111.957 20.472 112.221 21.312 112.221 22.272C112.221 23.832 111.645 25.056 110.517 25.968C109.389 26.88 107.925 27.336 106.125 27.336ZM128.4 24.816C126.696 26.496 124.632 27.336 122.208 27.336C119.784 27.336 117.72 26.496 116.016 24.816C114.336 23.112 113.496 21.048 113.496 18.6C113.496 16.152 114.336 14.088 116.016 12.408C117.72 10.704 119.784 9.864 122.208 9.864C124.632 9.864 126.696 10.704 128.4 12.408C130.104 14.088 130.944 16.152 130.944 18.6C130.944 21.048 130.104 23.112 128.4 24.816ZM118.344 22.56C119.376 23.592 120.672 24.096 122.208 24.096C123.744 24.096 125.04 23.592 126.072 22.56C127.104 21.528 127.632 20.208 127.632 18.6C127.632 16.992 127.104 15.672 126.072 14.64C125.04 13.608 123.744 13.08 122.208 13.08C120.672 13.08 119.376 13.608 118.344 14.64C117.312 15.672 116.784 16.992 116.784 18.6C116.784 20.208 117.312 21.528 118.344 22.56ZM146.063 27H142.487L139.103 21.168H136.583V27H133.271V10.2H139.991C141.551 10.2 142.871 10.752 143.951 11.832C145.031 12.912 145.583 14.232 145.583 15.768C145.583 17.856 144.287 19.776 142.343 20.664L146.063 27ZM139.991 13.296H136.583V18.264H139.991C141.239 18.264 142.271 17.136 142.271 15.768C142.271 14.4 141.239 13.296 139.991 13.296Z" fill="#0065FE"/>
+                    </svg>
+                </a>
+              </div>
+        
+              <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-3">My URLs</a></li>
+                <li><a href="#" class="nav-link px-3 link-secondary">Features <svg width="12" height="6" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.08649 1L7.08649 7L13.0865 1" stroke="#141414" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></a></li>
+                <li><a href="#" class="nav-link px-3 link-secondary">Pricing</a></li>
+                <li><a href="#" class="nav-link px-3 link-secondary">Analytics</a></li>
+                <li><a href="#" class="nav-link px-3 link-secondary">FAQs</a></li>
+              </ul >
+        
+              <div class="nav  text-end">
+                <button type="button" class="nav-link active rounded-5 me-2">Login</button>
+                <div class="nav nav-pills ">
+                <button type="button" class="nav-link nav active rounded-5 mx-10"><span style="font-weight: bold;">Try</span> for free</button></div>
+              </div>
+            </header>
+        
+        <div class="px-4 pt-5 my-5 text-center">
+          <h2 class="display-5 fw-bold ">Optimize Your Online Experience With Our
+            Advanced<span style="color: rgb(10, 81, 189);"> URL Shortening </span> Solution<p style="margin-top: 0px; padding-top: 0%;"><svg width="174" height="21" viewBox="0 0 174 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M162.517 0.905029C75.1007 1.58333 17.7488 11.4833 0 16.3486L9.28502 15.694L2.32125 17.9693L10.2135 17.6848L6.03526 19.3913L12.0705 20.8133C52.0748 16.4528 149.09 6.6406 173.63 5.2387L155.524 4.88668C165.556 3.5543 166.666 3.60686 166.666 3.60686C166.666 3.60686 162.517 2.61145 162.517 0.905029Z" fill="#005AE2"/>
+              </svg></p>
+          </h2>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, branded links, and domain customization options to reinforce your brand presence and enhance user engagement.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+              <div class="nav nav-pills"><button type="button" class="nav-link nav active rounded-5 px-4 me-sm-3"><span style="font-weight: bold;">Sign Up</span></button></div>
+              <div class="nav text-end"><button type="button" class="nav-link active rounded-5 me-2 btn-lg px-4">Learn more</button></div>
+            </div>
+          </div>
+          </div>
+          <div class="mono col-lg-12 col-md-12 col-sm-12">
+            <img src="./SVG/Vector 2.png" height="170px"  style="margin-left: 33%;"/>
+            <div class="uni-mono" style="display: flex; flex-direction: column; justify-content: left; align-items: start; padding-left: 30px; padding-top: 20px;">
+              <img src="./SVG/chain.svg" height="50"/>
+                <p style="align-self: center; padding-left: 130px; padding-right: 130px; padding-top: 10px;" >Seamlessly transform your long URLs into concise and shareable links with just few clicks</p>
+            </div>
+          </div>
+        </div>
+        <img class="layer" src="./SVG/circle-layer.svg"/> 
+        <div style="background-color: rgb(242, 243, 245); padding-top: 30px;">
+          <div class="container">
+            <div class="row ">
+              <div class="col-5"><h3>One Stop.<br />Four <span style="color: rgb(10, 81, 189);">Possiblities</span>.</h3></div>
+              <div class="col-2"><h4>3M</h4><p style="font-size: smaller;">Active users</p></div>
+              <div class="col-2"><h4>60M</h4><p style="font-size: smaller;">Links & QR codes created</p></div>
+              <div class="col-2"><h4>1B</h4><p style="font-size: smaller;">Clicked & Scanned connections</p></div>
+              <div class="col-1"><h4>300K</h4><p style="font-size: smaller;">App integrations</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="margin-top: 70px;">
+        <div class="row">
+          <div class="col-6"><h3 style="font-weight: bold;">Why Choose <span style="color: rgb(10, 81, 189);">Scissors</span></h3><h6 style="font-weight: lighter;">Scissors is the hub of everything that has to do<br />
+            with your link management. We shorthen your URLs,<br/>
+            allow you creating custom ones for your personal,<br/>
+            business, event usage. Our swift QR code<br/>
+            creation, management and usage tracking with<br/>
+            advanced analytics for all of this is second to<br/>
+            none.</h6>
+          </div>
+          <div class="col-3">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 py-2 px-2 rounded-5">
+              <img src="./SVG/url-shortening.svg"/> 
+            </div> 
+            <div>
+              <h4 style="margin-top: 20px;">URL Shortening</h4>
+              <p>
+                scissor allows you to shorten URLs of your
+                business, events. Shorten your URL at scale,
+                URL redirects.
+              </p>
+            </div>
+            <div style="margin-top: 70px;">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 py-2 px-2 rounded-5">
+                <img src="./SVG/grid.svg"/> 
+              </div> 
+              <div>
+                <h4 style="margin-top: 20px;">QR Codes</h4>
+                <p>
+                  Generate QR codes to your business, events
+                  Bring your audience and customers to your door step
+                  with this scan and go solution.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 py-2 px-2 rounded-5">
+              <img src="./SVG/edit.svg"/> 
+            </div> 
+            <div>
+              <h4 style="margin-top: 20px;">Custom URLs</h4>
+              <p>
+                With Scissor, you can create custom URLs, with
+                the lenght you want! A solution for socials and businesses.
+              </p>
+            </div>
+            <div style="margin-top: 70px;">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 py-2 px-2 rounded-5">
+                <img src="./SVG/activity.svg"/> 
+              </div> 
+              <div>
+                <h4 style="margin-top: 20px;">Data Analytics</h4>
+                <p>
+                  Recieve data on the usage of either your
+                  shortened URL, custom URLs or generated QR codes.
+                  Embedded to monitor progress.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class= mt-5>
+          <div class="pt-5 text-center">
+            <div class="container">
+              <h1 class="text-body-emphasis fw-bold">A <span style="color:  rgb(10, 81, 189);">price perfect</span> for your needs.</h1>
+              <p class="col-lg-8 mx-auto lead">
+                From catering for your personal, business, event, and social needs, you can be rest assured we have you in mind in our pricing.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="overlay">
+          <div class="div1" style="padding-left: 40px; padding-top: 20px;">
+            <p>Basic</p>
+            <h2 style="padding-bottom: 0px; margin-bottom: 0px; font-weight: bold;">Free</h2>
+            <p>Free plan for all users</p>
+            <ul style="list-style: none; font-size: smaller; margin-left: 0px; padding-left: 0px;">
+              <li style="margin-bottom: 6px;"><img src="./SVG/check-circle-blue.svg"> Unlimited URL Shortening</li>
+              <li style="margin-bottom: 30px; margin-top: 30px;"><img src="./SVG/check-circle-blue.svg"> Basic Link Analytics</li>
+              <li style="margin-bottom: 30px; margin-top: 20px;"><img src="./SVG/check-circle-blue.svg"> Customizable Short Links</li>
+              <li style="margin-bottom: 30px; margin-top: 20px;"><img src="./SVG/check-circle-blue.svg"> Standard Suport</li>
+              <li style="margin-top: 30px; margin-bottom: 0px;"><img src="./SVG/check-circle-blue.svg"> Ad-supported</li>
+            </ul>
+          </div>
+          <div class="div2" style="padding-left: 40px; padding-top: 65px;"><p>Professional</p>
+            <h2 style="padding-bottom: 0px; margin-bottom: 0px; font-weight: bold;">$15/Month</h2>
+            <p>Ideal for business creators</p>
+            <ul style="list-style: none; font-size: smaller; margin-left: 0px; padding-left: 0px;">
+              <li style="margin-bottom: 6px;"><img src="./SVG/check-circle-blue.svg"> Enhanced Link Annalytics</li>
+              <li style="margin-bottom: 30px; margin-top: 30px;"><img src="./SVG/check-circle-blue.svg"> Custom Branded Domains</li>
+              <li style="margin-bottom: 30px; margin-top: 20px;"><img src="./SVG/check-circle-blue.svg"> Advanced Link Customization</li>
+              <li style="margin-bottom: 30px; margin-top: 20px;"><img src="./SVG/check-circle-blue.svg"> Priority Suport</li>
+              <li style="margin-top: 30px; margin-bottom: 0px;"><img src="./SVG/check-circle-blue.svg"> Ad-free Experience</li>
+            </ul></div>
+          <div class="div3" style="padding-left: 40px; padding-top: 20px;"><p>Teams</p>
+            <h2 style="padding-bottom: 0px; margin-bottom: 0px; font-weight: bold;">$25/Month</h2>
+            <p>Share with up to 10 users</p>
+            <ul style="list-style: none; font-size: smaller; margin-left: 0px; padding-left: 0px;">
+              <li style="margin-bottom: 6px;"><img src="./SVG/check-circle-blue.svg"> Team Collaboration</li>
+              <li style="margin-bottom: 30px; margin-top: 30px;"><img src="./SVG/check-circle-blue.svg"> User Rules And Permission</li>
+              <li style="margin-bottom: 30px; margin-top: 20px;"><img src="./SVG/check-circle-blue.svg"> Enhanced Security</li>
+              <li style="margin-bottom: 30px; margin-top: 20px;"><img src="./SVG/check-circle-blue.svg"> API Access</li>
+              <li style="margin-top: 30px; margin-bottom: 0px;"><img src="./SVG/check-circle-blue.svg"> Dedicated Account Manager</li>
+            </ul></div>
+        </div>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <div class="nav nav-pills" style="border: 1px solid lightblue; border-radius: 25px;"><button type="button" class="nav-link light rounded-5 px-4 me-sm-3">Get Custom Pricing</button></div>
+          <div class="nav nav-pills"><button type="button" class="nav-link active rounded-5 me-2 btn-lg px-4">Select Pricing</button></div>
+        </div>
+        <div class="domain">
+          <img class="rev1" src="./images/form-left-bg.svg" alt="Background Image" >
+          <img class="rev2" src="./images/form-right-bg.svg"/>
+           <div class="terminal">
+              <div class="flex-container">
+                <form class="nav nav-pills" style="display:block; border: 1px solid lightblue; border-radius: 10px; margin-top: 30px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px; ">
+                  <input type="text" id="name" name="name" placeholder="Paste URL here" class="nav-link light rounded-5 px-3">
+                </form>
+                <div class="formD">
+                  <div>
+                    <select>
+                      <option value="option1">choose domain</option>
+                      <option value="option2">Major Ace</option>
+                    </select>
+                  </div>
+                  <div><form class="nav nav-pills" style="width:160px; padding: 0px; border: 1px solid lightblue; border-radius: 10px; margin-left: 20px; margin-right: 220px;">
+                    <input type="text" id="name" name="name" placeholder="Type Alias here" class="nav-link light rounded-5" style="width: 160px;">
+                  </form></div>
+                </div>
+               <div class="nav nav-pills">
+                <button class="nav-link active rounded-5 me- btn-lg px-5" style="width: 80%; margin-left: 40px;"> Trim URL <img src="./SVG/magic wand.svg"></button>
+               </div>
+               <div style="align-items: center;">
+                <p style="text-align: left; font-weight: lighter; color: rgb(21, 152, 240); padding: 25px; font-size: small;">
+                  By clicking TrimURL, I agree to the <span style="font-weight: bold;">Terms of Service, Privacy Policy</span> and Use of Cookies.
+                </p>
+               </div>
+             </div>
+           </div>
+        </div>
+        <div class="faq">
+          <img class="ask2" src="./images/faq-left-bg.svg"/>
+          <div class="faqlist">
+            <h3 style="text-align: center; font-weight: bold; padding-bottom: 20px;">FAQs</h3>
+            <p class="h1">How does URL shortening works?</p><img src="./SVG/minus.svg" style="margin-left: 210px;"/>
+            <p class="h2">URL shortening works by taking long URL and creating a shorter,<br/> condensed version that redirects to the original URL. When a user click on the shortened link, they are redirected to the intended destination.</p><hr />
+            <p class="h1">Is it necessary to create an account to use the URL shortening service?</p><img src="./SVG/plus.svg" style="margin-left: 60px;"/><hr />
+            <p class="h1">Are the shortened links permanent? Will they expire?</p><img src="./SVG/plus.svg" style="margin-left: 130px;"/><hr />
+            <p class="h1">Are there any limitations on the number of URLs I can shorten?</p><img src="./SVG/plus.svg" style="margin-left: 86px;"/><hr />
+            <p class="h1">Can i customize the shortened URL to reflect my brand or content?</p><img src="./SVG/plus.svg" style="margin-left: 70px;"/><hr />
+            <p class="h1">Can i track the performance of my shortened URL?</p><img src="./SVG/plus.svg" style="margin-left: 137px;"/><hr />
+            <p class="h1">How secure is the URL shortening service? Are the shortened links protected<br /> against spam or malicious activities?</p><img src="./SVG/plus.svg" style="margin-left: 196px;"/><hr />
+            <p class="h1">What is a QR code and what can it do?</p><img src="./SVG/plus.svg" style="margin-left: 190px;"/><hr />
+            <p class="h1">Is there an API available for integrating the url shortening<br /> service into my own applications or website?</p><img src="./SVG/plus.svg" style="margin-left: 160px;"/><hr />
+          </div>
+          <img class="ask" src="./images/faq-right-bg.svg"/>
+      </div>
+       <div class="revolution">
+         <img class="rev1" src="./images/optimize-left-bg.svg"/>
+         <img class="rev2" src="./images/optimize-right-bg.svg"/>
+         <div class="rev3" style="text-align: center; color: white;">
+          <h3 style="font-weight: bold;">Revolutionizing Link Optimization</h3>
+          <div class="nav nav-pills"><button type="button" class="tom nav-link active rounded-5 me-2 btn-lg px-4">Get Started</button></div>
+         </div>
+        </div>
+        <footer>
+          <div class="footcontainer">
+            <img class="rev1" style="height: 500px;" src="./images/footer-left-bg.svg"/>
+            <img class="rev2" src="./images/footer-right-bg.svg"/>
+            <div class="fchild">
+              <img src="./SVG/black-logo.svg"/><br />
+              <img src="./SVG/i.fi-social-twitter.svg"/>
+              <img src="./SVG/svg.feather.svg"/>
+              <img src="./SVG/i.fi-social-linkedin.svg"/>
+              <img src="./SVG/i.fi-social-facebook.svg"/>
+            </div>
+            <div class="fchild">
+              <h6>Why Scissor ?</h6>
+              <p>
+                Scissor 101<br/>
+                Integrations & API<br/>
+                Pricing<br/>
+              </p>
+              <h6>Resources</h6>
+              <p>
+                Blog<br/>
+                Resource Library<br/>
+                Developers<br/>
+                App Connectors<br/>
+                Support<br/>
+                Trust Center<br/>
+                Browser Extension<br/>
+                Mobile App<br/>
+              </p>
+            </div>
+            <div class="fchild">
+              <h6>Solutions</h6>
+              <p>
+                Social Media<br/>
+                Digital marketing<br/>
+                Customer Service<br/>
+                For Developers<br/>
+              </p>
+              <h6>Features</h6>
+              <p>
+                Branded Links<br/>
+                Mobile Links<br/>
+                Campaign<br/>
+                Management &<br/>
+                Analytics<br/>
+                QR Code Generations<br/>
+              </p>
+            </div>
+            <div class="fchild">
+              <h6>Products</h6>
+              <p>
+                Link Management<br/>
+                QR Codes<br/>
+                Link-in-bio<br/>
+              </p>
+              <h6>Legal</h6>
+              <p>
+                Privacy Policy<br/>
+                Cookie Policy<br/>
+                Terms of Services<br/>
+                Acceptable Use Policy<br/>
+                Code of Conduct<br/>
+              </p>
+            </div>
+            <div class="fchild">
+              <h6>Company</h6>
+              <p>
+                About Scissor<br/>
+                Careers<br/>
+                Partners<br/>
+                Press<br/>
+                Contact<br/>
+                Review<br/>
+              </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
